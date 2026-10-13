@@ -1,0 +1,6 @@
+{
+  "name": "MemeMind AI",
+  "description": "Intelligent Meme Finder, GIF Searcher & AI Meme Generator that understands any scenario and pairs it with the funniest internet memes, GIFs, or custom AI creations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

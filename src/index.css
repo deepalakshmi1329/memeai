@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-meme {
+    font-family: 'Anton', Impact, 'Arial Black', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .font-display {
+    font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .meme-text-stroke {
+    -webkit-text-stroke: 2px #000;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 3px 6px rgba(0,0,0,0.8);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.35);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 35px -5px rgba(6, 182, 212, 0.35);
+  }
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
